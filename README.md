@@ -2,7 +2,7 @@
 
 This collection of Python scripts automates tasks and mining on the **Gram Network** platform — a Telegram-based Web3 ecosystem where users earn GRM tokens by completing social tasks and running mining sessions.
 
-🔗 Register: [Gram Network](https://t.me/Gramnetworkminiapp?start=921415493)
+🔗 Register: [Gram Network](https://t.me/Gramnetwork_bot?startapp=921415493)
 
 ---
 
