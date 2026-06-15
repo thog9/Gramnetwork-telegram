@@ -100,6 +100,7 @@ Before running the scripts, ensure you have the following installed:
 
 ```
 Gram-Network/
+├── main.py                # Central menu system
 ├── accounts.txt           # Telegram initData
 ├── proxies.txt            # Proxies (optional)
 ├── requirements.txt       # Python dependencies
