@@ -59,7 +59,6 @@ async def cmd_exit(language: str):
 SCRIPT_MAP = {
     "social": run_social,
     "mining": run_mining,
-    "connect": run_connect,
     "exit": cmd_exit
 }
 
