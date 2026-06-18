@@ -42,6 +42,14 @@ This collection of Python scripts automates tasks and mining on the **Gram Netwo
 - ✅ Automatic re-fetch after mining start
 - ✅ Proxy & multi-threading support
 
+✨ **Boost Bot** (`bot.py`)
+
+- ✅ Automatic check Boost availability
+- ✅ Display current Mining Power & Active Boost
+- ✅ One-click Boost activation (+5 GH/s & +0.1 GRM)
+- ✅ Show Boost cooldown timer
+- ✅ Proxy & multi-threading support
+
 ---
 
 ## 🛠️ Prerequisites
