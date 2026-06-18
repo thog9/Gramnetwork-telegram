@@ -51,6 +51,10 @@ async def run_mining(language: str):
     from scripts.mining import run_mining
     await run_mining(language)
 
+async def run_boost(language: str):
+    from scripts.boost import run_boost
+    await run_boost(language)
+
 async def cmd_exit(language: str):
     messages = {"vi": "Đang thoát...", "en": "Exiting..."}
     print_border(messages[language], Fore.GREEN)
@@ -59,6 +63,7 @@ async def cmd_exit(language: str):
 SCRIPT_MAP = {
     "social": run_social,
     "mining": run_mining,
+    "boost": run_boost,
     "exit": cmd_exit
 }
 
@@ -67,12 +72,14 @@ def get_available_scripts(language):
         'vi': [
             {"name": "1. Tự động đào $GRM", "value": "mining"},
             {"name": "2. Tự động làm nhiệm vụ", "value": "social"},
+            {"name": "3. Boost Power", "value": "boost"},
           
             {"name": "X. Thoát", "value": "exit"},
         ],
         'en': [
             {"name": "1. Automatic mining $GRM", "value": "mining"},
             {"name": "2. Automatic complete tasks", "value": "social"},
+            {"name": "3. Boost Power", "value": "boost"},
           
             {"name": "X. Exit", "value": "exit"},
         ]
