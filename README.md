@@ -115,7 +115,8 @@ Gram-Network/
 ├── README.md              # This file
 └── scripts/               # Individual scripts
     ├── social.py          # Task automation bot
-    └── mining.py          # Mining automation bot
+    ├── mining.py          # Mining automation bot
+    └── boost.py           # Boost Power bot
 
 ```
 
